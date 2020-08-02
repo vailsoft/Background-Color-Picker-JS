@@ -1,2 +1,2 @@
 # Background-Color-Picker-JS
-Seletor de cores
+Um seletor de cores de fundo utilizando JavaScript.

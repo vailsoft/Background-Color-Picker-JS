@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us">
+<head>
+	<meta charset="UTF-8">
+	<title>Background Color Picker JavaScript</title>
+	<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<div id="ranges">
+
+		<label for="redValue" id="labelr">Red: </label>
+		<input type="text" value="128" id="redValue" readonly=“true” onclick="copyToClipboard('redValue')">
+		<input type="range" id="r" name="r" min="0" max="255" onchange="change(this.value)">
+				
+		<label for="greenValue" id="labelg">Green: </label>
+		<input type="text" value="128" id="greenValue" readonly=“true” onclick="copyToClipboard('greenValue')">
+		<input type="range" id="g" name="g" min="0" max="255" onchange="change(this.value)">
+		
+		<label for="blueValue" id="labelb">Blue: </label>
+		<input type="text" value="128" id="blueValue" readonly=“true” onclick="copyToClipboard('blueValue')">
+		<input type="range" id="b" name="b" min="0" max="255" onchange="change(this.value)" >
+		
+		<label for="rgbValue" id="labelrgb">RGB Code: </label>
+		<input type="text" id="rgbValue" value="#808080" readonly=“true” onclick="copyToClipboard('rgbValue')">
+		
+
+	</div>
+	<script src="script.js"></script>
+</body>
+</html>

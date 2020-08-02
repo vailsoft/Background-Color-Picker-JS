@@ -1,0 +1,41 @@
+@charset 'utf8';
+
+body{
+	background-color: rgb(128,128,128);
+}
+input[type=range]{
+	width: 390px;
+	height: 70px;
+	display: block;
+}
+
+input[type=text]{
+	font-size: 30px;
+	text-align: center;
+	border: solid 1px black;
+	border-radius: 12px;
+}
+
+div#ranges{
+	width: 400px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+#ranges {
+	border-radius: 20px;
+	box-shadow: 1px 1px 5px black;
+	padding: 50px;
+	background: white;
+	margin-top: 20px;
+	font-size: 20px;
+}
+label#labelr {
+	color: red;
+}
+label#labelg {
+	color: green;
+}
+#labelb {
+	color: blue;
+}
